@@ -6834,7 +6834,6 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
 
 .dropdown .content{
   border-radius: 5px;
-  left: 710px;
   display: none;
   position: absolute;
   min-width: 150px;
