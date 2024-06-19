@@ -1290,6 +1290,22 @@ h6, .h6 {
   letter-spacing: 1.8px;
   font-weight: 400;
 }
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: .6rem;
+  background-color: hsl(228, 4%, 15%);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: hsl(228, 4%, 25%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(228, 4%, 35%);
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .title-h22 {
     font-size: 20px;
